@@ -1646,7 +1646,12 @@ strong.counter-welcome:before {
 .car-count6 { grid-area: 1 / 4 / 2 / 5; }
 .car-count7 { grid-area: 1 / 5 / 2 / 6; }
 
-.stats-counter { background: var(--bg1); margin-top: 12px; height: 180px; }
+.stats-counter {
+    background: var(--bg1);
+    margin-top: 12px;
+    height: 180px;
+    margin-bottom: -10px;
+}
 
 
 a span[style="color:#BD2D2D"]:before { color:green; }
