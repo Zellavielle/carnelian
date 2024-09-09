@@ -1,4 +1,111 @@
+/* links contacto perfil */
+.wop-avatar-desarrollo-title { margin-bottom: 13px; }
+.wop-avatar-desarrollo-cntnt a:hover {
+    border-color: var(--groups);
+}
 
+.wop-avatar-desarrollo-cntnt a.campoExp:after { content: 'ficha'; }
+.wop-avatar-desarrollo-cntnt a.campoBaul:after { content: 'Baúl'; }
+.wop-avatar-desarrollo-cntnt a.campoBusq:after { content: 'Búsqueda'; }
+
+.wop-avatar-desarrollo-cntnt a:before { content: '00.'; font: var(--font4); letter-spacing: 0; margin-right: 7px; }
+.wop-avatar-desarrollo-cntnt i {
+    display: none;
+}
+.wop-avatar-desarrollo-cntnt a:after {
+    letter-spacing: 1px;
+    text-transform: lowercase;
+}
+.wop-avatar-desarrollo-cntnt a {
+    margin-right: 10px;
+    border-bottom: 2px solid transparent;
+}
+
+/* clima */
+.gmi-clima {
+    position: absolute;
+    font-size: 145px;
+    left: 17px;
+    opacity: .2;
+    top: -35px;
+    transform: rotate(28deg);
+    color: var(--accent3);
+}
+.ctbl-icon-texto span::-webkit-scrollbar-thumb {
+background: transparent!important;
+}
+.ctbl-icon-texto span:hover::-webkit-scrollbar-thumb {
+    background: var(--bg4)!important;
+}
+
+.car-tablon-desplegar ::-webkit-scrollbar {
+    background-color: transparent;
+    height: 6px;
+    width: 3px;
+}
+.car-tablon-desplegar ::-webkit-scrollbar-thumb {
+    background: var(--bg4);
+    border: 0px solid #fff;
+}
+
+
+.ctbl-icon-texto span {
+    width: 209px;
+    overflow: auto;
+    height: 100px;
+    padding-right: 10px;
+    text-align: justify;
+    font-family: var(--font5);
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 120%;
+    padding-left: 6px;
+}
+img.ctbl-clima-icon {
+    width: 90px;
+    border-radius: 100%;
+    margin-left: 29px;
+    margin-right: 20px;
+    outline: var(--border3);
+    outline-offset: 4px;
+    position: relative;
+}
+.ctbl-icon-texto {
+    display: flex;
+    align-items: center;
+    border-top: var(--border1);
+    padding-top: 15px;
+    margin-top: -12px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.ctbl-clima {
+    width: 360px;
+    height: 210px;
+    background: var(--bg2);
+    margin-left: 50px;
+    overflow: hidden;
+}
+.ctbl-clima-titulo {
+    font: var(--font4);
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 500;
+    padding: 20px 19px;
+    font-size: 12px;
+}
+.ctbl-clima-titulo strong {
+    font-family: var(--font2);
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    margin-top: -7px;
+    font-weight: normal;
+}
   /* editor */
 
 .sceditor-container.ltr.sourceMode, .sceditor-container.ltr.wysiwygMode {background: var(--bg2)!important;}
