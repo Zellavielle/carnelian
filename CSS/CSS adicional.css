@@ -1,3 +1,71 @@
+
+  /* editor */
+
+.sceditor-container.ltr.sourceMode, .sceditor-container.ltr.wysiwygMode {background: var(--bg2)!important;}
+.sceditor-toolbar { border-bottom: 0 !important; }
+
+.sceditor-container { background: var(--white2)!important; }
+a.sceditor-button.sceditor-button-scSmileys:after {content: "\f099";font-family: "Font Awesome 5 Brands";font-weight: 400;position: relative;top: -11px;}
+
+.sceditor-button.active, .sceditor-button:active, .sceditor-button:hover {background: var(--bg2)!important;}
+.sceditor-toolbar { background: var(--grad1)!important; border-radius: 0!important; padding: 10px 10px!important; }
+a.sceditor-button.sceditor-button-bold:after { content: "\f032"; font-family: 'fontawesome'; font-weight: bold; }
+a.sceditor-button.sceditor-button-italic:after { content: "\f033"; font-family: 'fontawesome'; color: white; }
+a.sceditor-button.sceditor-button-underline:after { content: "\f0cd"; font-family: 'fontawesome'; color: white; }
+a.sceditor-button.sceditor-button-strike:after { content: "\f0cc"; font-family: 'fontawesome'; color: white; }
+
+a.sceditor-button.sceditor-button-left:after { content: "\f036"; font-family: 'fontawesome'; font-weight: bold; }
+a.sceditor-button.sceditor-button-center:after { content: "\f037"; font-family: 'fontawesome'; font-weight: bold; }
+a.sceditor-button.sceditor-button-right:after { content: "\f038"; font-family: 'fontawesome'; font-weight: bold; }
+a.sceditor-button.sceditor-button-justify:after { content: "\f039"; font-family: 'fontawesome'; font-weight: bold; }
+
+a.sceditor-button.sceditor-button-bulletlist:after { content: "\f0ca"; font-family: 'fontawesome'; font-weight: bold; }
+a.sceditor-button.sceditor-button-orderedlist:after { content: "\f0cb"; font-family: 'fontawesome'; font-weight: bold; }
+a.sceditor-button.sceditor-button-horizontalrule:after { content: "\f120"; font-family: 'fontawesome'; font-weight: bold; }
+
+a.sceditor-button.sceditor-button-quote:after { content: "\f10d"; font-family: 'fontawesome'; font-weight: bold; }
+a.sceditor-button.sceditor-button-code:after { content: "\f121"; font-family: 'fontawesome'; font-weight: bold; }
+a.sceditor-button.sceditor-button-faspoiler:after { content: "\f06e"; font-family: 'fontawesome'; font-weight: bold; }
+a.sceditor-button.sceditor-button-fahide:after { content: "\f070"; font-family: 'fontawesome'; font-weight: bold; }
+a.sceditor-button.sceditor-button-table:after { content: "\f0ce"; font-family: 'fontawesome'; font-weight: bold; }
+a.sceditor-button.sceditor-button-servimg:after { content: "\f093"; font-family: 'fontawesome'; font-weight: bold; }
+a.sceditor-button.sceditor-button-image:after { content: "\f03e"; font-family: 'fontawesome'; font-weight: bold; }
+a.sceditor-button.sceditor-button-link:after { content: "\f0c1"; font-family: 'fontawesome'; font-weight: bold; }
+a.sceditor-button.sceditor-button-embed:after { font-weight: 400 !important; font-size: 15px !important; font-family: "Font Awesome 6 Pro"; content: "\e165"; }
+a.sceditor-button.sceditor-button-youtube:after { content: "\f16a"; font-family: 'fontawesome'; font-weight: bold; }
+a.sceditor-button.sceditor-button-dailymotion:after { content: "\f008"; font-family: 'fontawesome'; font-weight: bold; }
+a.sceditor-button.sceditor-button-twemojifa { font-family: "Font Awesome 6 Brands"; font-weight: 400; content: "\f099"; }
+
+a.sceditor-button.sceditor-button-size:after { content: "\f034"; font-family: 'fontawesome'; font-weight: bold; }
+a.sceditor-button.sceditor-button-color:after { content: "\f043"; font-family: fontawesome; font-weight: 700; color: var(--accent3)!important; }
+a.sceditor-button.sceditor-button-font:after { content: "\f031"; font-family: 'fontawesome'; font-weight: bold; }
+a.sceditor-button.sceditor-button-more:after { content: "\f067"; font-family: 'fontawesome'; font-weight: bold; }
+
+a.sceditor-button.sceditor-button-pastetext:after { content: "\f0c5"; font-family: 'fontawesome'; font-weight: bold; }
+a.sceditor-button.sceditor-button-source:after {content: "\f1c9";font-family: fontawesome;font-weight: 700;font-size: 18px;}
+
+
+a.sceditor-button.sceditor-button-subscript:after { content: "\f12c"; font-family: 'fontawesome'; font-weight: bold; }
+a.sceditor-button.sceditor-button-superscript:after { content: "\f12b"; font-family: 'fontawesome'; font-weight: bold; }
+
+a.sceditor-button.sceditor-button-headers:after { content: "\f1dc"; font-family: 'fontawesome'; font-weight: bold; }
+a.sceditor-button.sceditor-button-emoticon:after { content: "\f118"; font-family: 'fontawesome'; font-weight: bold; }
+a.sceditor-button.sceditor-button-emoticon:after { content: "\f118"; font-family: 'fontawesome'; font-weight: bold; }
+a.sceditor-button.sceditor-button-mention:after { font-family: 'Line Awesome Brands'; content: "\40"; font-size: 19px!important; }
+.sceditor-button-mention div { background: none!important; }
+a.sceditor-button.sceditor-button-twemojifa div { background-image: none!important; }
+
+a.sceditor-button.sceditor-button-removeformat, a.sceditor-button.sceditor-button-pastetext, a.sceditor-button.sceditor-button-time, a.sceditor-button.sceditor-button-date, a.sceditor-button.sceditor-button-fascroll, a.sceditor-button.sceditor-button-faupdown, a.sceditor-button.sceditor-button-farand {display: none;}
+.sceditor-button.active { background: var(--bg2)!important; border: var(--border4); }
+.sceditor-button.hover[unselectable="on"] { border: var(--border4); }
+.sceditor-button { border-radius: 0px!important; }
+.sceditor-button div, div.sceditor-grip { background: none!important; }
+a.sceditor-button:after {color: #fff!important;font-size: 12px;font-weight: lighter!important;position: relative;top: -15px;}
+a.sceditor-button { height: 24px!important; margin: 5px 0; }
+
+a.sceditor-button.sceditor-button-twemojifa:after { content: "\f099"; }
+
+
 /* cbox */
 .my-cbox {
     padding: 0 14px;
