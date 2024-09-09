@@ -1,4 +1,212 @@
+/* cbox */
+.my-cbox {
+    padding: 0 14px;
+    padding-top: 14px;
+    margin-bottom: 10px;
+}
+.my-cbox-fullbody { position: absolute; top: 7px; right: 7px; width: 329px; }
+.my-cbox-rules {
+    background: var(--tras2);
+    padding: 10px 30px;
+    font-family: var(--font5);
+    text-align: justify;
+    line-height: 130%;
+    color: var(--text3);
+    font-size: 12px;
+    margin-left: -7px;
+    width: 346px;
+}
 
+
+/* temas libres y búsquedas */
+
+.cbf-4::-webkit-scrollbar-thumb {
+background: transparent!important;
+}
+.cbf-4:hover::-webkit-scrollbar-thumb {
+    background: var(--bg4)!important;
+}
+
+
+.cbfooter-body ::-webkit-scrollbar {
+    background-color: transparent;
+    height: 6px;
+    width: 3px;
+}
+.cbfooter-body ::-webkit-scrollbar-thumb {
+    background: var(--bg4);
+    border: 0px solid #fff;
+}
+
+
+.tlb-contenedor.tlb-busq:before {
+    color: var(--text3);
+    font-weight: 900;
+    content: "\f7b6";
+    font-family: "Font Awesome 6 Pro";
+    background: var(--accent1);
+    width: 24px;
+    height: 23px;
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 100%;
+    position: absolute;
+    left: 45%;
+    top: -13px;
+}
+.tlb-contenedor.tlb-libre:before {
+    color: var(--text3);
+    font-weight: 900;
+    content: "\f002";
+    font-family: "Font Awesome 6 Pro";
+    background: var(--accent3);
+    width: 24px;
+    height: 23px;
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 100%;
+    position: absolute;
+    left: 45%;
+    top: -13px;
+}
+a.user-tlb:hover { background: var(--accent1); }
+a.user-tlb {
+    background: var(--bg5);
+    color: var(--text3);
+    font: var(--font4);
+    font-weight: 400;
+    font-size: 8px;
+    text-transform: uppercase;
+    padding: 2px 7px;
+    margin-top: 3px;
+    letter-spacing: 1px;
+    transition: all linear .3s;
+}
+.tlb-contenedor.tlb-libre a:nth-of-type(1) {
+    font-family: var(--font3);
+    font-style: italic;
+    font-weight: 600;
+}
+.tlb-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--bg3);
+    margin: 10px;
+    padding: 11px 10px;
+    border: var(--border1);
+    position: relative;
+    margin-bottom: 16px;
+}
+.title-cboxfooter {
+    text-align: center;
+    font-family: var(--font3);
+    color: var(--text1);
+    font-style: italic;
+    padding-top: 10px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-bottom: 23px;
+}
+
+/* fix */
+.car-topic-time-user {
+    width: 185px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+.avatar-lastopics {
+    width: 56px;
+    height: 56px;
+    overflow: hidden;
+    border-radius: 100%;
+    align-content: center;
+}
+.avatar-lastopics img {
+    width: 100%;
+    object-position: 0px -8px;
+}
+.temitas {
+    background: var(--bg2);
+    padding: 15px;
+    height: 400px;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+span.mod-recent-info {
+    margin-bottom: 6px;
+    border: 1px solid var(--bg1);
+    background: var(--bg3);
+    width: 278px;
+    display: flex;
+    justify-content: space-around;
+    height: 79px;
+    align-items: center;
+}
+/* footer - cbox, last topics, search, open threads */
+
+/* cbox */
+.cboxfooter {
+    display: flex;
+    background: var(--bg1);
+    height: 400px;
+    margin-bottom: 30px;
+    margin-top: 21px;
+    margin-right: 3px;
+    position: relative;
+}
+
+.cbfooter-body {
+    display: grid;
+    grid-template-columns: 62px 600px 240px 346px;
+    grid-template-rows: 100%;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.cbf-1 {
+    grid-area: 1 / 1 / 2 / 5;
+}
+.cbf-2 { grid-area: 1 / 1 / 2 / 2; background: var(--bg5); }
+.cbf-3 { grid-area: 1 / 2 / 2 / 3; }
+.cbf-4 {
+    grid-area: 1 / 3 / 2 / 4;
+    background: var(--bg2);
+    overflow: auto;
+}
+.cbf-5 {
+    grid-area: 1 / 4 / 2 / 5;
+    background: var(--wopbg);
+    background-color: var(--bg4);
+    background-blend-mode: color-dodge;
+    filter: grayscale(1);
+    background-size: 1204px;
+}
+
+/* recent topics title*/
+.cbf-2 span {
+    font: var(--font4);
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--text3);
+    transform: rotate(90deg);
+    display: block;
+    font-size: 11px;
+    letter-spacing: 5px;
+    width: 350px;
+    transform-origin: top left;
+    position: relative;
+    left: 40px;
+    text-align: center;
+}
 
 /* copiar todo */
 span.selectCode:hover {
