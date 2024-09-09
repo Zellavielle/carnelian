@@ -2570,6 +2570,7 @@ margin-top: 18px;
     flex-direction: column;
     height: 192px;
     justify-content: center;
+    word-spacing: -16px;
 }
 .cf-9 span {
     line-height: 130%;
@@ -2577,6 +2578,7 @@ margin-top: 18px;
     width: 455px;
     padding-top: 13px;
     font-family: Barlow;
+    word-spacing: 0;
 }
 .cf-10 {
     grid-area: 5 / 2 / 6 / 3;
