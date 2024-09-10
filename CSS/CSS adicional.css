@@ -2558,6 +2558,7 @@ margin-top: 18px;
     margin-top: 6px;
     color: var(--text2);
     letter-spacing: 1px;
+    word-spacing: 0;
 }
 .cf-9 {
     grid-area: 4 / 2 / 5 / 3;
