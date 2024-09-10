@@ -2350,6 +2350,7 @@ img.car-header-image { border: var(--border2); padding: 7px; position: relative;
 .kairostrain.wop-post-container .post, .kairostrain .car-profilepage-body {
     background: #9400007d;
 }
+.kairostrain .ts-2 i:before {content: "\EAB3";}
 .kairostrain .wop-post-avatar-display-hover { background: #e83f3f99;}
 
 .civiles .wop-rango:before {content: 'C';}
