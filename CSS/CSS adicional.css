@@ -2347,7 +2347,7 @@ img.car-header-image { border: var(--border2); padding: 7px; position: relative;
 .wishfountain .ts-2 i:before {content: "\EC45";}
 
 .kairostrain .wop-rango:before {content: 'K';}
-.kairostrain.wop-post-container .post, .kairostrain .car-profilepage-body {
+.kairostrain.wop-post-container .post, .car-profilepage-body.kairostrain {
     background: #9400007d;
 }
 .kairostrain .ts-2 i:before {content: "\EAB3";}
