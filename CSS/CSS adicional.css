@@ -400,7 +400,24 @@ span.selectCode {
 }
 
 /* códigos administrativos */
-.mini-cod h1 { display: inline; font-family: playfair display; font-style: italic; } .mini-cod { color: var(--text1);overflow:hidden; position: relative; font-family: var(--font4); width: 370px; margin: auto; font-size: 13px; line-height: 150%; letter-spacing: 0px; background: var(--bg1); padding: 60px; outline: var(--border1); outline-offset: 10px; border: var(--border1); overflow: hidden; } .mini-cod strong { font-family: playfair display; } .mini-cod h1 b { display: block; font: var(--font4); text-transform: uppercase; font-size: 10px; font-style: normal; font-weight: bold; margin-top: 7px; margin-bottom: 25px; } .mini-cod .facar { font-size: 43px; display: block; margin: auto; text-align: center; margin-bottom: 34px; } .mini-cod .gmi-wheat { transform: rotate(210deg); font-size: 204px; color: var(--text2); opacity: 0.3; position: absolute; right: 0; top: 30px; color: #d6ae6f9c; }
+.mini-cod h1 { display: inline; font-family: playfair display; font-style: italic; } 
+.mini-cod {
+    color: var(--text1);
+    overflow: hidden;
+    position: relative;
+    font-family: var(--font4);
+    width: 370px;
+    margin: auto;
+    font-size: 13px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    background: var(--bg3);
+    padding: 60px;
+    outline: var(--border1);
+    outline-offset: 10px;
+    border: var(--border1);
+    overflow: hidden;
+}.mini-cod strong { font-family: playfair display; } .mini-cod h1 b { display: block; font: var(--font4); text-transform: uppercase; font-size: 10px; font-style: normal; font-weight: bold; margin-top: 7px; margin-bottom: 25px; } .mini-cod .facar { font-size: 43px; display: block; margin: auto; text-align: center; margin-bottom: 34px; } .mini-cod .gmi-wheat { transform: rotate(210deg); font-size: 204px; color: var(--text2); opacity: 0.3; position: absolute; right: 0; top: 30px; color: #d6ae6f9c; }
 
 span.new-message {     color: var(--text3);background: var(--bg4); padding: 2px 8px; font-size: 8px; font-weight: 700; }
 .administrador-edita { background: var(--bg1); margin-top: 30px; padding-bottom: 30px; display: none; }
