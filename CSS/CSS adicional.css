@@ -385,10 +385,12 @@ span.mod-recent-info {
 
 /* copiar todo */
 span.selectCode:hover {
-    background: var(--groups);
+    background: var(--bg1);
+    color: var(--text1);
+    border: var(--border3);
 }
 span.selectCode {
-    background: var(--bg4);
+    background: var(--groups);
     font: var(--font4);
     text-transform: uppercase;
     font-weight: 600;
@@ -397,6 +399,7 @@ span.selectCode {
     margin-left: 10px;
     cursor: pointer;
     transition: all linear .2s;
+    border: 1px solid var(--groups);
 }
 
 /* códigos administrativos */
