@@ -2288,7 +2288,10 @@ https://carnelian.foroactivo.com.afiwi { height: 200px; display: flex; align-ite
 .car-partners { height: 200px; background: var(--bg1); }
 .afiwi-flor { background-image: url(https://i.servimg.com/u/f95/19/46/91/91/flower12.png); width: 246px; height: 200px; position: absolute; right: 31px; top: 0; background-repeat: no-repeat; background-size: 246px; }
 .afiwi { width: 1300px; margin: auto; position: relative; display: flex; align-items: center; height: 100%; }
-.partners-1 { height: 130px; background: #9d8b7cc7; }
+.partners-1 {
+    height: 200px;
+    background-image: var(--bgbw);
+}
 
 /* navbar + header */
 a.mainmenu[href="/images"], a.mainmenu[href="/"], a.mainmenu[href="/calendar"], a.mainmenu[href="/faq"], a.mainmenu[href="/groups"], a.mainmenu[href="/search"] { display: none; }
