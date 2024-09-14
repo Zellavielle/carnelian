@@ -2364,7 +2364,11 @@ img.car-header-image { border: var(--border2); padding: 7px; position: relative;
 .resurrectionlake.wop-post-container .post, .resurrectionlake.car-profilepage-body { background: #896a9a75; }
 .resurrectionlake .wop-post-avatar-display-hover { background: #896a9a75;}
 
-.wishfountain .wop-rango:before {content: 'W';}
+.wishfountain .wop-rango:before {
+    content: 'W';
+    top: 18px;
+    left: 1px;
+}
 .wishfountain.wop-post-container .post, .wishfountain.car-profilepage-body { background: #54908c7a; }
 .wishfountain .wop-post-avatar-display-hover { background: #54908c7a;}
 .wishfountain .ts-2 i:before {content: "\EC45";}
