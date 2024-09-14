@@ -2687,8 +2687,21 @@ car-tmplt-normas-bloques { display: flex; margin-top: 35px; }
 .post .campo19 { margin-top: 20px; }
 .campo7 { font: var(--font1); color: var(--text1); text-transform: uppercase; letter-spacing: 1px;}
 
-.post .campo6:after { color: var(--text1); content: 'raza'; display: block; text-transform: uppercase; font-family: montserrat; font-weight: 800; font-size: 9px; font-style: normal; letter-spacing: 2px; margin-top: -2px; }
-
+.post .campo6:after {
+    color: var(--text1);
+    content: 'raza';
+    display: block;
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-weight: 800;
+    font-size: 9px;
+    font-style: normal;
+    letter-spacing: 2px;
+    margin-top: 6px;
+}
+.humn2.campo6 {
+    line-height: 77%;
+}
 
 .post .campo19:after { color: var(--text1); content: 'member'; display: block; text-transform: uppercase; font-family: montserrat; font-weight: 800; font-size: 9px; font-style: normal; letter-spacing: 2px; margin-top: -2px; }
 
