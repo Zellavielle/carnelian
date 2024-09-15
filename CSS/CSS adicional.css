@@ -163,8 +163,14 @@ a.sceditor-button.sceditor-button-mention:after { font-family: 'Line Awesome Bra
 a.sceditor-button.sceditor-button-twemojifa div { background-image: none!important; }
 
 a.sceditor-button.sceditor-button-removeformat, a.sceditor-button.sceditor-button-pastetext, a.sceditor-button.sceditor-button-time, a.sceditor-button.sceditor-button-date, a.sceditor-button.sceditor-button-fascroll, a.sceditor-button.sceditor-button-faupdown, a.sceditor-button.sceditor-button-farand {display: none;}
-.sceditor-button.active { background: var(--bg2)!important; border: var(--border4); }
-.sceditor-button.hover[unselectable="on"] { border: var(--border4); }
+.sceditor-button.active {
+      background: var(--accent5) !important;
+    border-radius: 3px !important;
+}
+.sceditor-button.hover[unselectable="on"] {
+    background: var(--accent5) !important;
+    border-radius: 3px !important;
+}
 .sceditor-button { border-radius: 0px!important; }
 .sceditor-button div, div.sceditor-grip { background: none!important; }
 a.sceditor-button:after {color: #fff!important;font-size: 12px;font-weight: lighter!important;position: relative;top: -15px;}
