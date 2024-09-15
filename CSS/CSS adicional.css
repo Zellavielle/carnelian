@@ -171,6 +171,10 @@ a.sceditor-button.sceditor-button-removeformat, a.sceditor-button.sceditor-butto
     background: var(--accent5) !important;
     border-radius: 3px !important;
 }
+.sceditor-button.hover[unselectable="on"] {
+    border: 0 !important;
+    background: var(--accent3) !important;
+}
 .sceditor-button { border-radius: 0px!important; }
 .sceditor-button div, div.sceditor-grip { background: none!important; }
 a.sceditor-button:after {color: #fff!important;font-size: 12px;font-weight: lighter!important;position: relative;top: -15px;}
