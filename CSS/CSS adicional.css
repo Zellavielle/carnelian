@@ -460,19 +460,22 @@ input {
     color: var(--text1) !important;
 }
 input[type="submit"], .button, .button1, .button2 {
-    border: 3px solid var(--text1);
-    text-shadow: 0 0 BLACK;
+    border-bottom: 3px solid var(--text1);
+    text-shadow: 0 0 var(--text1) !important;
     border-radius: 0;
-    font: var(--font4);
+    font-family: var(--font3) !important;
     color: var(--text1);
     text-transform: uppercase;
-    font-size: 12px;
     letter-spacing: 2px;
+    font-weight: 800;
+    background: transparent !important;
+    box-shadow: none !important;
+    font-size: 17px !important;
+    transition: all linear .2s;
 }
 input[type="submit"]:link, input[type="submit"]:visited, input[type="submit"]:active, input[type="submit"]:hover, .button:link, .button:visited, .button:active, .button:hover, .button1:link, .button1:visited, .button1:active, .button1:hover, .button2:link, .button2:visited, .button2:active, .button2:hover {
-    color: var(--text3);
-    background: var(--bg4);
-    font-family: var(--font3);
+    color: var(--text3) !important;
+    background: var(--bg4) !important;
 }
 .car-admini a:after {
     font-size: 12px;
