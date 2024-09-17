@@ -1248,6 +1248,7 @@ overflow: auto;
     font-size: 32px;
     align-self: flex-start;
     padding-left: 41px;
+    line-height: 80%;
 }
 .campo32 {
     height: 100%;
