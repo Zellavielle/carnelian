@@ -2075,12 +2075,12 @@ a span[style="color:#BD2D2D"]:before { color:green; }
 .car-lastusers a span {
     color: var(--text1) !important;
 }
-.c-sta-6-cntnt ::-webkit-scrollbar {
+.c-sta-6-cntnt::-webkit-scrollbar {
     background-color: transparent;
     height: 6px;
     width: 3px;
 }
-.c-sta-6-cntnt ::-webkit-scrollbar-thumb {
+.c-sta-6-cntnt::-webkit-scrollbar-thumb {
     background: var(--bg4);
     border: 0px solid #fff;
 }
@@ -2089,7 +2089,6 @@ a span[style="color:#BD2D2D"]:before { color:green; }
 .car-lastusers a { margin-bottom: 5px; }
 .car-lastusers {
     text-align: center;
-    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
