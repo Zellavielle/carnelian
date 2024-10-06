@@ -2347,18 +2347,17 @@ a.javilink { font-family: playfair display; color: white; font-style: italic; le
 .car-navbar-content-icon i { font-size: 14px; color: #e6c784; padding-left: 26px; }
 .car-navbar-content-name b { color: #e6c784; }
 
-.car-header-bloque1-diamond { width: 330px; height: 330px; background: linear-gradient(45deg, #d0000ac4, #ffe28b24); -moz-transform: rotate(-45deg); -o-transform: rotate(-45deg); -webkit-transform: rotate(-45deg); transform: rotate(-45deg); margin-left: 69px; backdrop-filter: blur(5px); }
+.car-header-bloque1-diamond { width: 330px; height: 330px; background: linear-gradient(45deg, #f23f82c4, #ffffff0f); -moz-transform: rotate(-45deg); -o-transform: rotate(-45deg); -webkit-transform: rotate(-45deg); transform: rotate(-45deg); margin-left: 69px; backdrop-filter: blur(5px); }
 .car-header-bloque1-letter { text-align: center; color: #fff; font-size: 131px; position: absolute; top: 80px; left: 195px; font-family: revine;     z-index: 99;}
 .car-header-bloque1-title { font-family: playfair display; font-size: 12px; text-transform: lowercase; font-style: italic; color: #fff; letter-spacing: 10px; position: absolute; top: 237px; width: 477px; text-align: center; z-index: 99; }
-.car-header-bloques { display: flex; align-content: center; flex-wrap: nowrap!important; }
+.car-header-bloques { display: flex; align-content: center; flex-wrap: nowrap !important; position: relative; }
 img.car-header-image { border: var(--border2); padding: 7px; position: relative; z-index: 2; width: 430px; height: 430px; margin-left: -31px; }
-.car-header-bloque2 { position: relative; width: 430px; height: 430px; background-image: var(--headerbg); outline: var(--border2); outline-offset: 7px; left: -50px; z-index: 9; }
-.car-header-bloque3-shadow { width: 440px; height: 440px; background: var(--tras1); position: absolute; margin-left: 355px; margin-top: 7px; }
-.car-header-bloque1 { position: relative; height: 433px; display: flex; align-content: center; flex-wrap: wrap; z-index: 11; }
-.car-header-bloque3-frase span { display: block; color: black; margin-top: -11px; }
+.car-header-bloque2 { position: relative; width: 1200px; height: 500px; background-image: var(--headerbg); outline: var(--border2); outline-offset: 7px; z-index: 9; background-size: cover; }
+.car-header-bloque1 { position: absolute; height: 433px; align-content: center; z-index: 11; left: -41px; top: 42px; }
+.car-header-bloque3-frase span { display: block; margin-top: -11px; color: #ffa6bc; }
 .car-header-bloque3-frase { font-family: 'Revine'; color: white; font-size: 97px; text-transform: uppercase; line-height: 89%; }
-.car-header-bloque3 { position: relative; display: flex; flex-direction: column; justify-content: center; margin-left: -122px; z-index: 9; }
-.car-header-bloque3-frase2 { color: var(--text1); font-family: playfair display; font-style: italic; letter-spacing: 2px; font-size: 13px; position: relative; top: 33px; left: 120px; }
+.car-header-bloque3 { position: absolute; z-index: 9; right: 62px; top: 130px; }
+.car-header-bloque3-frase2 { color: var(--text3); font-family: playfair display; font-style: italic; letter-spacing: 2px; font-size: 13px; position: relative; top: 33px; left: 9px; }
 .car-header-bloque3-frase2 strong { display: block; text-transform: uppercase; font-family: montserrat; font-weight: 800; font-style: normal; font-size: 10px; color: white; }
 .car-header-bloque3-frase2:before { height: 4px; width: 40px; background: var(--accent1); display: block; content: ''; position: relative; top: -16px; }
 .wop-row-messages, .wop-row-topics { color: var(--text1); }
