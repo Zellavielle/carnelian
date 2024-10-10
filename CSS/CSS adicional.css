@@ -2428,7 +2428,9 @@ img.car-header-image { border: var(--border2); padding: 7px; position: relative;
 .argoscreature .ts-2 i:before { content: "\E52E"; }
 
 .staff .wop-rango:before {content: 'S';}
-.staff.wop-post-container .post, .staff.car-profilepage-body { background: #e2313152; }
+.staff.wop-post-container .post, .staff.car-profilepage-body {
+    background: linear-gradient(45deg, #ff52a066 80%, #6f648a8c);
+}
 .staff .wop-post-avatar-display-hover { background: #ff00006b;}
 .staff .ts-2 i:before { content: "\E1D5"; }
 
