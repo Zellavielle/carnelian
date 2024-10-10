@@ -2059,6 +2059,7 @@ strong.counter-welcome:before {
 .car-count5 {
     grid-area: 1 / 3 / 2 / 4;
     background-image: var(--bgflower1);
+    background-size: 359px;
 }
 .car-count6 { grid-area: 1 / 4 / 2 / 5; }
 .car-count7 { grid-area: 1 / 5 / 2 / 6; }
@@ -2219,6 +2220,7 @@ carnamequo {
     justify-content: flex-start;
     flex-direction: column;
     background-image: var(--bgflower1);
+    background-size: cover;
 }
 .c-sta-civiles span {
     font-weight: 400;
