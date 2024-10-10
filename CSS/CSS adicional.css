@@ -2021,7 +2021,8 @@ strong.counter-welcome:before {
     outline: 1px solid #dadada;
     outline-offset: 5px;
     margin-left: 37px;
-    background-image: url(https://i.servimg.com/u/f95/19/46/91/91/icon_c17.jpg);
+    background-image: url(https://i.imgur.com/3lnn3AH.png);
+    background-size: cover;
 }
 .car-count-container {
     display: grid;
@@ -2036,9 +2037,9 @@ strong.counter-welcome:before {
     grid-area: 1 / 1 / 2 / 3;
     background: var(--wopbg);
     background-color: var(--bg4);
-    background-blend-mode: color-dodge;
+    background-blend-mode: difference;
     filter: grayscale(1);
-    background-size: 1204px;
+    background-size: cover;
 }
 .car-count2 { grid-area: 1 / 3 / 2 / 6; }
 .car-count3 {
