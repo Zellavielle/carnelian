@@ -2317,7 +2317,17 @@ gruc strong {
 .afiwi3 em { color: var(--accent1);font-family: playfair display; font-size: 13px; }
 https://carnelian.foroactivo.com.afiwi { height: 200px; display: flex; align-items: center; width: 1300px; margin: auto; position: relative; }
 .car-partners { height: 200px; background: var(--bg1); }
-.afiwi-flor { background-image: url(https://i.servimg.com/u/f95/19/46/91/91/flower12.png); width: 246px; height: 200px; position: absolute; right: 31px; top: 0; background-repeat: no-repeat; background-size: 246px; }
+.afiwi-flor {
+    background-image: url(https://i.imgur.com/LGiJfFW.png);
+    width: 246px;
+    height: 200px;
+    position: absolute;
+    right: 31px;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: 246px;
+}
+
 .afiwi { width: 1300px; margin: auto; position: relative; display: flex; align-items: center; height: 100%; }
 .partners-1 {
     height: 200px;
