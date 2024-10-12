@@ -25,10 +25,9 @@
 .gmi-clima {
     position: absolute;
     font-size: 145px;
-    left: 17px;
-    opacity: .2;
+    left: -37px;
+    opacity: .5;
     top: -35px;
-    transform: rotate(28deg);
     color: var(--accent3);
 }
 .ctbl-icon-texto span::-webkit-scrollbar-thumb {
