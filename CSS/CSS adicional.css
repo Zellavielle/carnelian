@@ -50,14 +50,14 @@ background: transparent!important;
 
 
 .ctbl-icon-texto span {
-    width: 209px;
+    width: 237px;
     overflow: auto;
     height: 100px;
     padding-right: 10px;
     text-align: justify;
     font-family: var(--font5);
     font-weight: 500;
-    font-size: 11px;
+    font-size: 12px;
     line-height: 120%;
     padding-left: 6px;
 }
@@ -81,7 +81,7 @@ img.ctbl-clima-icon {
 }
 
 .ctbl-clima {
-    width: 360px;
+    width: 403px;
     height: 210px;
     background: var(--bg2);
     margin-left: 50px;
@@ -105,6 +105,7 @@ img.ctbl-clima-icon {
     letter-spacing: 0;
     margin-top: -7px;
     font-weight: normal;
+    color: var(--accent4);
 }
   /* editor */
 
