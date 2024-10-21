@@ -2412,13 +2412,13 @@ img.car-header-image { border: var(--border2); padding: 7px; position: relative;
 
 .kairostrain .wop-rango:before {content: 'K';}
 .kairostrain.wop-post-container .post, .car-profilepage-body.kairostrain {
-    background: #9400007d;
+    background: #ff232373;
 }
 .kairostrain .ts-2 i:before {content: "\EAB3";}
 .kairostrain .wop-post-avatar-display-hover { background: #e83f3f99;}
 
 .civiles .wop-rango:before {content: 'C';}
-.civiles.wop-post-container .post, .car-profilepage-body.civiles { background: #ca3b765e; }
+.civiles.wop-post-container .post, .car-profilepage-body.civiles { background: #f8308380; }
 .civiles .wop-post-avatar-display-hover { background: #ea388187;}
 .civiles .ts-2 i:before { content: "\E28C"; }
 
@@ -2431,7 +2431,9 @@ img.car-header-image { border: var(--border2); padding: 7px; position: relative;
 .staff.wop-post-container .post, .staff.car-profilepage-body {
     background: linear-gradient(45deg, #ff52a066 80%, #6f648a8c);
 }
-.staff .wop-post-avatar-display-hover { background: #ff00006b;}
+.staff .wop-post-avatar-display-hover {
+    background: linear-gradient(284deg, #ff52a066 38%, #6f648a8c) #ff00006b;
+}
 .staff .ts-2 i:before { content: "\E1D5"; }
 
 /* tabs ficha */
