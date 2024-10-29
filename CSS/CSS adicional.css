@@ -671,7 +671,7 @@ usexplica {
     font-size: 9px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    background: var(--accent3);
+    background: var(--bg4);
 }
 .us-edit-line .label {
     display: none;
