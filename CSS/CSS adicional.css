@@ -8,7 +8,7 @@
 .wop-avatar-desarrollo-cntnt a.campoBaul:after { content: 'Baúl'; }
 .wop-avatar-desarrollo-cntnt a.campoBusq:after { content: 'Búsqueda'; }
 
-.wop-avatar-desarrollo-cntnt a:before { content: '00.'; font: var(--font4); letter-spacing: 0; margin-right: 7px; }
+
 .wop-avatar-desarrollo-cntnt i {
     display: none;
 }
@@ -17,8 +17,14 @@
     text-transform: lowercase;
 }
 .wop-avatar-desarrollo-cntnt a {
-    margin-right: 10px;
+    margin-right: 2px;
     border-bottom: 2px solid transparent;
+    padding: 0 6px;
+}
+.wop-avatar-desarrollo-cntnt a:hover {
+    background: var(--black);
+    padding: 0 6px;
+    color: var(--text3);
 }
 
 /* clima */
