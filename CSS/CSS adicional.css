@@ -90,7 +90,8 @@ img.ctbl-clima-icon {
     height: 210px;
     background: var(--bg2);
     margin-left: 50px;
-    overflow: hidden;
+    overflow: hidden !important;
+    position: relative;
 }
 .ctbl-clima-titulo {
     font: var(--font4);
