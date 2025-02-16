@@ -1486,6 +1486,7 @@ height: 100%;
     border-top: var(--border3);
     margin-top: -1px;
     padding: 40px;
+    position: relative;
 }
 .detalles-section-inner {
     display: grid;
@@ -1656,8 +1657,9 @@ height: 100%;
 
 /* general data */
 .chdata-section {
-    display: grid;
-    grid-template-columns: 320px 210px 600px;
+    display: grid
+;
+    grid-template-columns: 320px 210px 637px;
     grid-template-rows: repeat(2, 270px);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
@@ -1672,6 +1674,7 @@ height: 100%;
     text-align: justify;
     font-family: var(--font5);
     color: var(--text1);
+    font-size: 14px;
 }
 .chdata-raza:after {
     content: 'Raza del personaje';
